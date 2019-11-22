@@ -10,7 +10,7 @@ Angular is a development platform for building mobile and desktop web \
 applications using Typescript/JavaScript and other languages."
 
 # Inspired from https://github.com/sclorg/s2i-nodejs-container/blob/master/8/Dockerfile
-ENV NODEJS_VERSION=12 \
+ENV NODEJS_VERSION=10 \
     NPM_CONFIG_PREFIX=$HOME/.npm-global \
     PATH=$HOME/node_modules/.bin/:$HOME/.npm-global/bin/:$PATH
 
