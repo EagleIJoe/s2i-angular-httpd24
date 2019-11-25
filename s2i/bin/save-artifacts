@@ -10,6 +10,7 @@
 
 pushd ${HOME} >/dev/null
 if [ -d node_modules ]; then
+    echo "---> Archiving build artifacts (node_modules)"
     # Add the deps to a tar stream
     tar cf - node_modules
 fi
